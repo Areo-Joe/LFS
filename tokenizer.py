@@ -1,7 +1,7 @@
 import re
 
 UNKNOWN = "<|unknown|>"
-END_OF_TEXT = "<|end_of_text|>"
+END_OF_TEXT = "<|endoftext|>"
 
 class Tokenizer:
     def __init__(self, vocab: dict[str, int]):
